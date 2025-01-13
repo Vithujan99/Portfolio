@@ -1,0 +1,14 @@
+#about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#about h1 {
+  font-size: 4rem;
+}
+#about h2 {
+  font-size: 3.5rem;
+}

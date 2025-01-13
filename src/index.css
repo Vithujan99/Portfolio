@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto_Condensed-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Roboto_Condensed-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto_Condensed-Bold.woff2") format("woff2"),
+    url("./assets/fonts/Roboto_Condensed-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto_Condensed-ExtraBold.woff2") format("woff2"),
+    url("./assets/fonts/Roboto_Condensed-ExtraBold.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+  --color-primary: black;
+  --color-secondary: rgb(255, 243, 250);
+  --color-tertiary: #ed5e93;
+  --color-background: rgba(255, 243, 250, 0.85);
+  --color-extra-background: #28161c;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  color: var(--color-secondary);
+}
