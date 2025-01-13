@@ -16,7 +16,7 @@ const Projekte = () => {
       const projektHolder = event.currentTarget;
       const videoIndex = projektHolder.dataset.index;
 
-      //video.poster = `/thumbnails/hero-${videoIndex}.jpg`; Kann als thumbnail genutzt werden bis video lädt
+      video.poster = `/thumbnails/hero-1.jpg`;
       video.src = `videos/hero-${videoIndex}.mp4`;
       video.play();
 
