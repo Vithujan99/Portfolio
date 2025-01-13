@@ -49,7 +49,7 @@
 }
 .projekt-tools-holder p {
   margin: 0;
-  font-size: 17px;
+  font-size: 14px;
   padding: 5px;
   background-color: var(--color-secondary);
   color: black;
@@ -88,4 +88,5 @@
   left: 10%;
   opacity: 0;
   width: 600px;
+  border-radius: 15px;
 }

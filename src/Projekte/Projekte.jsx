@@ -16,7 +16,7 @@ const Projekte = () => {
       const projektHolder = event.currentTarget;
       const videoIndex = projektHolder.dataset.index;
 
-      video.poster = `/thumbnails/hero-${videoIndex}.jpg`;
+      video.poster = `/thumbnails/hero-${videoIndex}.png`;
       video.src = `videos/hero-${videoIndex}.mp4`;
       video.play();
 
@@ -102,7 +102,7 @@ const Projekte = () => {
         src=""
         loop
         muted
-        poster="/thumbnails/hero-1.jpg"
+        poster="/thumbnails/hero-1.png"
         id="next-video"
       />
     </div>
