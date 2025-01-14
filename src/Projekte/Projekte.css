@@ -125,3 +125,20 @@
     transform: translate(-50%, -50%) rotate(360deg);
   }
 }
+@media (max-width: 1200px) {
+  /*For Gsap*/
+  #hover-projekte-bg {
+    display: none;
+  }
+
+  .projekt-video {
+    display: none;
+  }
+  .video-container {
+    display: none;
+  }
+
+  .spinner {
+    display: none;
+  }
+}
