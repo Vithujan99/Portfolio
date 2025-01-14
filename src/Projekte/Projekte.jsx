@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Projekte.css";
 import gsap from "gsap";
+import bg from "/images/bg.jpg";
 
 const Projekte = () => {
   const projektHolderRef = useRef(null);
@@ -112,7 +113,9 @@ const Projekte = () => {
             </a>
           </div>
         </div>
-        <div id="hover-projekte-bg" ref={hoverProjekteBgRef}></div>
+        <div id="hover-projekte-bg" ref={hoverProjekteBgRef}>
+          <img src={bg} alt="background image" />
+        </div>
         <video
           className="projekt-video"
           ref={VideoRef}

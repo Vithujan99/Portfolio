@@ -32,6 +32,7 @@
 .about-right h2 {
   font-size: 3.5rem;
   opacity: 0;
+  color: var(--color-tertiary);
 }
 
 @media (max-width: 1200px) {
