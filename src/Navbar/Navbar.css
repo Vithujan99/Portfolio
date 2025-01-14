@@ -12,6 +12,7 @@
   z-index: 50;
 }
 .navbar-link {
+  font-family: "Roboto", sans-serif;
   background-color: transparent;
   border: 0;
   writing-mode: vertical-rl;
@@ -19,13 +20,15 @@
   cursor: pointer;
   color: grey;
   letter-spacing: 0.4rem;
-  font-weight: bold;
-  transition: all 0.3s ease-in;
+  font-weight: 400;
   padding: 15px;
-  font-size: 15px;
+  font-size: 17px;
+  transition: all 0.3s ease-in;
 }
 .navbar-link.active {
-  color: var(--color-extra-background); /* Hervorheben des aktiven Links */
+  color: black;
+  letter-spacing: 0.6rem;
+  transition: all 0.3s ease-in;
 }
 .navbar-link:hover {
   color: black;
