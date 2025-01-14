@@ -52,6 +52,15 @@ body {
   padding: 0;
   width: 100%;
   background-color: black;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--color-secondary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
 }

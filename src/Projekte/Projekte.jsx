@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Projekte.css";
 import gsap from "gsap";
 
@@ -6,6 +6,7 @@ const Projekte = () => {
   const projektHolderRef = useRef(null);
   const hoverProjekteBgRef = useRef(null);
   const VideoRef = useRef(null);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     const projekteHolder = projektHolderRef.current;
@@ -15,6 +16,8 @@ const Projekte = () => {
     const handleMouseEnter = (event) => {
       const projektHolder = event.currentTarget;
       const videoIndex = projektHolder.dataset.index;
+
+      setIsLoading(true); // Start loading
 
       video.poster = `thumbnails/hero-${videoIndex}.png`;
       video.src = `videos/hero-${videoIndex}.mp4`;
@@ -61,6 +64,19 @@ const Projekte = () => {
       });
     };
   }, []);
+
+  const handleWaiting = () => {
+    setIsLoading(true);
+  };
+
+  const handleCanPlay = () => {
+    setIsLoading(false);
+  };
+
+  const handleLoadedData = () => {
+    setIsLoading(false);
+  };
+
   return (
     <div id="projekte">
       <div className="projekte-right">
@@ -96,7 +112,6 @@ const Projekte = () => {
         </div>
       </div>
       <div id="hover-projekte-bg" ref={hoverProjekteBgRef}></div>
-
       <video
         className="projekt-video"
         ref={VideoRef}
@@ -105,7 +120,13 @@ const Projekte = () => {
         muted
         poster="thumbnails/hero-1.png"
         id="next-video"
+        onWaiting={handleWaiting}
+        onCanPlay={handleCanPlay}
+        onLoadedData={handleLoadedData}
       />
+      <div className="video-container">
+        {isLoading && <div className="spinner"></div>}
+      </div>
     </div>
   );
 };
