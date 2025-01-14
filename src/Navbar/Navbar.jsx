@@ -20,12 +20,12 @@ const Navbar = () => {
     );
 
     // IntersectionObserver to track when sections come into view
-    const sections = ["about", "projekte", "kontakt"]; // Sections to observe
+    const sections = ["about", "projekte", "M-projekte", "kontakt"];
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            setActiveSection(entry.target.id); // Update active section when in view
+            setActiveSection(entry.target.id);
           }
         });
       },
@@ -55,7 +55,9 @@ const Navbar = () => {
       <button
         onClick={() => scrollToSection("projekte")}
         className={`navbar-link ${
-          activeSection === "projekte" ? "active" : ""
+          activeSection === "projekte" || activeSection === "M-projekte"
+            ? "active"
+            : ""
         }`}
       >
         Projekte
