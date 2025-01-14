@@ -12,3 +12,27 @@
 #about h2 {
   font-size: 3.5rem;
 }
+@media (max-width: 1200px) {
+  #about h1 {
+    font-size: 3rem;
+  }
+  #about h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #about h1 {
+    font-size: 2rem;
+    margin-left: 75px;
+  }
+  #about h2 {
+    font-size: 1.75rem;
+    margin-left: 75px;
+  }
+}

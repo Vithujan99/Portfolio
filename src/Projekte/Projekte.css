@@ -1,8 +1,15 @@
 #projekte {
   width: 100%;
+}
+.projekte-container {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+.projekte-container h3 {
+  text-align: right;
+  color: #ed5e93;
+  padding-right: 0.3rem;
 }
 .projekte-right {
   display: flex;
@@ -11,11 +18,7 @@
   position: relative;
   z-index: 50;
 }
-#projekte h3 {
-  text-align: right;
-  color: #ed5e93;
-  padding-right: 0.3rem;
-}
+
 .projekte-holder {
   text-align: right;
   font-size: 3rem;
@@ -89,6 +92,7 @@
   opacity: 0;
   width: 600px;
   border-radius: 15px;
+  pointer-events: none;
 }
 .video-container {
   position: fixed;
@@ -97,6 +101,7 @@
   left: 10%;
   width: 600px;
   height: 337px;
+  pointer-events: none;
 }
 
 .spinner {

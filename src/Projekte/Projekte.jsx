@@ -79,53 +79,55 @@ const Projekte = () => {
 
   return (
     <div id="projekte">
-      <div className="projekte-right">
-        <h3>Projekte</h3>
-        <div className="projekte-holder" ref={projektHolderRef}>
-          <a className="projekt-holder">
-            <p className="projekt-name">Rewe Filiale</p>
-            <div className="projekt-tools-holder">
-              <p>React</p>
-              <p>Contentful</p>
-            </div>
-          </a>
-          <a className="projekt-holder">
-            <p className="projekt-name">Bitcoin</p>
-            <div className="projekt-tools-holder">
-              <p>Vite</p>
-              <p>React</p>
-              <p>gsap</p>
-              <p>Tailwind</p>
-            </div>
-          </a>
-          <a className="projekt-holder">
-            <p className="projekt-name">Rustica</p>
-            <div className="projekt-tools-holder">
-              <p>React</p>
-              <p>MongoDB</p>
-              <p>Node.js</p>
-            </div>
-          </a>
-          <a className="projekt-holder">
-            <p className="projekt-name">Webflow</p>
-          </a>
+      <div className="projekte-container">
+        <div className="projekte-right">
+          <h3>Projekte</h3>
+          <div className="projekte-holder" ref={projektHolderRef}>
+            <a className="projekt-holder">
+              <p className="projekt-name">Rewe Filiale</p>
+              <div className="projekt-tools-holder">
+                <p>React</p>
+                <p>Contentful</p>
+              </div>
+            </a>
+            <a className="projekt-holder">
+              <p className="projekt-name">Bitcoin</p>
+              <div className="projekt-tools-holder">
+                <p>Vite</p>
+                <p>React</p>
+                <p>Gsap</p>
+                <p>Tailwind</p>
+              </div>
+            </a>
+            <a className="projekt-holder">
+              <p className="projekt-name">Rustica</p>
+              <div className="projekt-tools-holder">
+                <p>React</p>
+                <p>MongoDB</p>
+                <p>Node.js</p>
+              </div>
+            </a>
+            <a className="projekt-holder">
+              <p className="projekt-name">Webflow</p>
+            </a>
+          </div>
         </div>
-      </div>
-      <div id="hover-projekte-bg" ref={hoverProjekteBgRef}></div>
-      <video
-        className="projekt-video"
-        ref={VideoRef}
-        src=""
-        loop
-        muted
-        poster="thumbnails/hero-1.png"
-        id="next-video"
-        onWaiting={handleWaiting}
-        onCanPlay={handleCanPlay}
-        onLoadedData={handleLoadedData}
-      />
-      <div className="video-container">
-        {isLoading && <div className="spinner"></div>}
+        <div id="hover-projekte-bg" ref={hoverProjekteBgRef}></div>
+        <video
+          className="projekt-video"
+          ref={VideoRef}
+          src=""
+          loop
+          muted
+          poster="thumbnails/hero-1.png"
+          id="next-video"
+          onWaiting={handleWaiting}
+          onCanPlay={handleCanPlay}
+          onLoadedData={handleLoadedData}
+        />
+        <div className="video-container">
+          {isLoading && <div className="spinner"></div>}
+        </div>
       </div>
     </div>
   );

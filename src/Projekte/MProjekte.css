@@ -1,0 +1,91 @@
+.M-projekte-container {
+  display: flex;
+  flex-direction: column;
+}
+.M-projekte-container h3 {
+  text-align: right;
+  color: #ed5e93;
+  padding-right: 25px;
+  font-size: 1.25rem;
+}
+.M-projekte-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-right: 25px;
+  position: relative;
+  text-align: right;
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+.M-projekt-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.3s ease-out;
+}
+.M-projekt-info-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 7.5px;
+  cursor: pointer;
+  gap: 5px;
+}
+.M-projekt-name {
+  cursor: pointer;
+  margin: 0;
+  letter-spacing: 0.2rem;
+  color: var(--color-secondary);
+}
+.M-projekt-tools-holder {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.M-projekt-tools-holder p {
+  margin: 0;
+  font-size: 0.8rem;
+  padding: 5px;
+  background-color: var(--color-secondary);
+  color: black;
+}
+.M-video-container {
+  position: relative;
+  margin-left: 100px;
+}
+.M-projekt-video {
+  width: 100%;
+  border-radius: 15px;
+}
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top-color: #000;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@media (max-width: 800px) {
+  .M-projekte-container h3 {
+    padding-right: 15px;
+  }
+  .M-video-container {
+    margin-left: 65px;
+  }
+}
