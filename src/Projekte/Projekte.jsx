@@ -19,7 +19,7 @@ const Projekte = () => {
 
       setIsLoading(true); // Start loading
 
-      video.poster = `thumbnails/projekt-${videoIndex}.png`;
+      video.poster = `thumbnails/projekt-${videoIndex}.webp`;
       video.src = `videos/projekt-${videoIndex}.mp4`;
       video.play();
 
