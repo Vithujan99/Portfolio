@@ -2,7 +2,25 @@
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
   color: white;
+}
+#kontakt h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-tertiary);
+}
+#kontakt a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  letter-spacing: 0.7rem;
+  font-weight: 400;
+  color: var(--color-secondary);
+  padding: 10px 20px;
+  transition: all 0.4s ease-in;
+}
+#kontakt a:hover {
+  background-color: var(--color-tertiary);
+  transition: all 0.4s ease-in;
 }

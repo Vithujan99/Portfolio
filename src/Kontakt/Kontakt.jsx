@@ -4,7 +4,8 @@ import "./Kontakt.css";
 const Kontakt = () => {
   return (
     <div id="kontakt">
-      <h1>Kontakt</h1>
+      <h3>Kontakt</h3>
+      <a href="mailto:vithujan99@hotmail.com">vithujan99@hotmail.com</a>.
     </div>
   );
 };

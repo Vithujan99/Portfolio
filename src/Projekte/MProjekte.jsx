@@ -35,7 +35,7 @@ const MProjekte = () => {
           scrollTrigger: {
             trigger: projekt,
             start: "top 80%", // Start animation when the top of the container is 80% of the viewport
-            end: "top 40%", // End animation when the bottom of the container is 20% of the viewport
+            end: "top 40%", // End animation when the bottom of the container is 40% of the viewport
             scrub: true, // Smooth animation as the user scrolls
             toggleActions: "play reverse play reverse", // Play and reverse animations
           },
