@@ -91,7 +91,7 @@ const Projekte = () => {
               </div>
             </a>
             <a className="projekt-holder">
-              <p className="projekt-name">Bitcoin</p>
+              <p className="projekt-name">Animation</p>
               <div className="projekt-tools-holder">
                 <p>Vite</p>
                 <p>React</p>

@@ -78,11 +78,11 @@ const MProjekte = () => {
             <div className="M-video-container">
               <video
                 className="M-projekt-video"
-                src="videos/hero-1.mp4"
+                src="videos/projekt-1.mp4"
                 loop
                 muted
                 autoPlay
-                poster="thumbnails/hero-1.png"
+                poster="thumbnails/projekt-1.png"
                 id="next-video"
                 onWaiting={handleWaiting}
                 onCanPlay={handleCanPlay}
@@ -94,7 +94,7 @@ const MProjekte = () => {
           {/* Repeat for other projects */}
           <div className="M-projekt-holder">
             <a className="M-projekt-info-holder">
-              <p className="M-projekt-name">Bitcoin</p>
+              <p className="M-projekt-name">Animation</p>
               <div className="M-projekt-tools-holder">
                 <p>Vite</p>
                 <p>React</p>
@@ -105,11 +105,11 @@ const MProjekte = () => {
             <div className="M-video-container">
               <video
                 className="M-projekt-video"
-                src="videos/hero-2.mp4"
+                src="videos/projekt-2.mp4"
                 loop
                 muted
                 autoPlay
-                poster="thumbnails/hero-2.png"
+                poster="thumbnails/projekt-2.png"
                 id="next-video"
                 onWaiting={handleWaiting}
                 onCanPlay={handleCanPlay}
@@ -131,10 +131,10 @@ const MProjekte = () => {
             <div className="M-video-container">
               <video
                 className="M-projekt-video"
-                src="videos/hero-3.mp4"
+                src="videos/projekt-3.mp4"
                 loop
                 muted
-                poster="thumbnails/hero-3.png"
+                poster="thumbnails/projekt-3.png"
                 id="next-video"
                 onWaiting={handleWaiting}
                 onCanPlay={handleCanPlay}
@@ -151,10 +151,10 @@ const MProjekte = () => {
             <div className="M-video-container">
               <video
                 className="M-projekt-video"
-                src="videos/hero-4.mp4"
+                src="videos/projekt-4.mp4"
                 loop
                 muted
-                poster="thumbnails/hero-4.png"
+                poster="thumbnails/projekt-4.png"
                 id="next-video"
                 onWaiting={handleWaiting}
                 onCanPlay={handleCanPlay}
