@@ -16,7 +16,7 @@
   flex-direction: column;
   padding: 7.5%;
   position: relative;
-  z-index: 50;
+  z-index: 60;
 }
 
 .projekte-holder {
@@ -79,24 +79,26 @@
   top: 0;
   left: 0;
   background-color: black;
-  z-index: 25;
+  z-index: 55;
   opacity: 0;
+  pointer-events: none;
 }
 
 .projekt-video {
   position: fixed;
   transform: translate(-100px);
-  z-index: 27;
+  z-index: 60;
   top: 20%;
   left: 10%;
   opacity: 0;
   width: 600px;
   border-radius: 15px;
   pointer-events: none;
+  box-shadow: 0 0 100px 50px rgba(255, 255, 255, 0.2); /* Weißer Schatten */
 }
 .video-container {
   position: fixed;
-  z-index: 27;
+  z-index: 60;
   top: 20%;
   left: 10%;
   width: 600px;

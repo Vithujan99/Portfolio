@@ -19,8 +19,8 @@ const Projekte = () => {
 
       setIsLoading(true); // Start loading
 
-      video.poster = `thumbnails/hero-${videoIndex}.png`;
-      video.src = `videos/hero-${videoIndex}.mp4`;
+      video.poster = `thumbnails/projekt-${videoIndex}.png`;
+      video.src = `videos/projekt-${videoIndex}.mp4`;
       video.play();
 
       gsap.to(hoverProjekteBg, {
