@@ -33,6 +33,7 @@
   align-items: flex-start;
   gap: 10px;
   cursor: pointer;
+  text-decoration: none;
 }
 .projekt-name {
   cursor: pointer;

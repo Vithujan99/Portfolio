@@ -95,7 +95,7 @@ const Projekte = () => {
                 <p>Contentful</p>
               </div>
             </a>
-            <a>
+            <a className="projekt-holder">
               <p className="projekt-name">Animation</p>
               <div className="projekt-tools-holder">
                 <p>Vite</p>

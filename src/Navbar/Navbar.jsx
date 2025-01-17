@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import gsap from "gsap";
+import useIsMobile from "../hooks/useIsMobile";
 
 const Navbar = () => {
+  const isMobile = useIsMobile(1300);
   const [activeSection, setActiveSection] = useState("");
 
   const scrollToSection = (id) => {
+    console.log(`Scroll to section ${id}`);
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -53,7 +56,7 @@ const Navbar = () => {
         About
       </button>
       <button
-        onClick={() => scrollToSection("projekte")}
+        onClick={() => scrollToSection(isMobile ? "M-projekte" : "projekte")}
         className={`navbar-link ${
           activeSection === "projekte" || activeSection === "M-projekte"
             ? "active"
