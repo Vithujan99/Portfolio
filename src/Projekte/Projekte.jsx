@@ -83,14 +83,19 @@ const Projekte = () => {
         <div className="projekte-right">
           <h3>Projekte</h3>
           <div className="projekte-holder" ref={projektHolderRef}>
-            <a className="projekt-holder">
+            <a
+              className="projekt-holder"
+              href="https://rewe-project.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p className="projekt-name">Rewe Filiale</p>
               <div className="projekt-tools-holder">
                 <p>React</p>
                 <p>Contentful</p>
               </div>
             </a>
-            <a className="projekt-holder">
+            <a>
               <p className="projekt-name">Animation</p>
               <div className="projekt-tools-holder">
                 <p>Vite</p>
@@ -99,7 +104,12 @@ const Projekte = () => {
                 <p>Tailwind</p>
               </div>
             </a>
-            <a className="projekt-holder">
+            <a
+              className="projekt-holder"
+              href="https://rustica-pizzeria.onrender.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p className="projekt-name">Rustica</p>
               <div className="projekt-tools-holder">
                 <p>React</p>
@@ -107,7 +117,12 @@ const Projekte = () => {
                 <p>Node.js</p>
               </div>
             </a>
-            <a className="projekt-holder">
+            <a
+              className="projekt-holder"
+              href="https://pauls-awesome-site-1cc3d9.webflow.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p className="projekt-name">Webflow</p>
             </a>
           </div>

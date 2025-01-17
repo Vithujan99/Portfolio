@@ -68,7 +68,12 @@ const MProjekte = () => {
         <h3>Projekte</h3>
         <div className="M-projekte-holder">
           <div className="M-projekt-holder">
-            <a className="M-projekt-info-holder">
+            <a
+              className="M-projekt-info-holder"
+              href="https://rewe-project.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p className="M-projekt-name">Rewe Filiale</p>
               <div className="M-projekt-tools-holder">
                 <p>React</p>
@@ -120,7 +125,12 @@ const MProjekte = () => {
           </div>
 
           <div className="M-projekt-holder">
-            <a className="M-projekt-info-holder">
+            <a
+              className="M-projekt-info-holder"
+              href="https://rustica-pizzeria.onrender.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p className="M-projekt-name">Rustica</p>
               <div className="M-projekt-tools-holder">
                 <p>React</p>
@@ -145,7 +155,12 @@ const MProjekte = () => {
           </div>
 
           <div className="M-projekt-holder">
-            <a className="M-projekt-info-holder">
+            <a
+              className="M-projekt-info-holder"
+              href="https://pauls-awesome-site-1cc3d9.webflow.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p className="M-projekt-name">Webflow</p>
             </a>
             <div className="M-video-container">
