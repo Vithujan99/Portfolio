@@ -98,13 +98,19 @@ const MProjekte = () => {
           </div>
           {/* Repeat for other projects */}
           <div className="M-projekt-holder">
-            <a className="M-projekt-info-holder">
+            <a
+              className="M-projekt-info-holder"
+              href="https://animation-page-ivory.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p className="M-projekt-name">Animation</p>
               <div className="M-projekt-tools-holder">
                 <p>Vite</p>
                 <p>React</p>
                 <p>Gsap</p>
                 <p>Tailwind</p>
+                <p>Tutorial</p>
               </div>
             </a>
             <div className="M-video-container">
@@ -136,6 +142,7 @@ const MProjekte = () => {
                 <p>React</p>
                 <p>MongoDB</p>
                 <p>Node.js</p>
+                <p>Privat</p>
               </div>
             </a>
             <div className="M-video-container">

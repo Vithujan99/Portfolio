@@ -95,13 +95,19 @@ const Projekte = () => {
                 <p>Contentful</p>
               </div>
             </a>
-            <a className="projekt-holder">
+            <a
+              className="projekt-holder"
+              href="https://animation-page-ivory.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p className="projekt-name">Animation</p>
               <div className="projekt-tools-holder">
                 <p>Vite</p>
                 <p>React</p>
                 <p>Gsap</p>
                 <p>Tailwind</p>
+                <p>Tutorial</p>
               </div>
             </a>
             <a
@@ -115,6 +121,7 @@ const Projekte = () => {
                 <p>React</p>
                 <p>MongoDB</p>
                 <p>Node.js</p>
+                <p>Privat</p>
               </div>
             </a>
             <a
