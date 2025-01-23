@@ -87,7 +87,7 @@ const MProjekte = () => {
                 loop
                 muted
                 autoPlay
-                poster="thumbnails/projekt-1.png"
+                poster="thumbnails/projekt-1.webp"
                 id="next-video"
                 onWaiting={handleWaiting}
                 onCanPlay={handleCanPlay}
@@ -120,7 +120,7 @@ const MProjekte = () => {
                 loop
                 muted
                 autoPlay
-                poster="thumbnails/projekt-2.png"
+                poster="thumbnails/projekt-2.webp"
                 id="next-video"
                 onWaiting={handleWaiting}
                 onCanPlay={handleCanPlay}
@@ -151,7 +151,39 @@ const MProjekte = () => {
                 src="videos/projekt-3.mp4"
                 loop
                 muted
-                poster="thumbnails/projekt-3.png"
+                poster="thumbnails/projekt-3.webp"
+                id="next-video"
+                onWaiting={handleWaiting}
+                onCanPlay={handleCanPlay}
+                onLoadedData={handleLoadedData}
+              />
+              {isLoading && <div className="M-spinner"></div>}
+            </div>
+          </div>
+
+          <div className="M-projekt-holder">
+            <a
+              className="projekt-holder"
+              href="https://unisplitterproject-production.up.railway.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p className="projekt-name">Splitter</p>
+              <div className="projekt-tools-holder">
+                <p>Java</p>
+                <p>Spring Boot</p>
+                <p>Docker</p>
+                <p>PostgreSQL</p>
+                <p>Studium-Projekt</p>
+              </div>
+            </a>
+            <div className="M-video-container">
+              <video
+                className="M-projekt-video"
+                src="videos/projekt-4.mp4"
+                loop
+                muted
+                poster="thumbnails/projekt-4.webp"
                 id="next-video"
                 onWaiting={handleWaiting}
                 onCanPlay={handleCanPlay}
@@ -173,10 +205,10 @@ const MProjekte = () => {
             <div className="M-video-container">
               <video
                 className="M-projekt-video"
-                src="videos/projekt-4.mp4"
+                src="videos/projekt-5.mp4"
                 loop
                 muted
-                poster="thumbnails/projekt-4.png"
+                poster="thumbnails/projekt-5.webp"
                 id="next-video"
                 onWaiting={handleWaiting}
                 onCanPlay={handleCanPlay}

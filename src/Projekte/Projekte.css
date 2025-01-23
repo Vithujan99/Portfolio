@@ -47,9 +47,11 @@
   display: flex;
   flex-direction: row-reverse;
   align-items: flex-start;
+  flex-wrap: wrap;
   gap: 7.5px;
   opacity: 0;
   transition: all 0.3s ease-in-out;
+  max-width: 300px;
 }
 .projekt-tools-holder p {
   margin: 0;

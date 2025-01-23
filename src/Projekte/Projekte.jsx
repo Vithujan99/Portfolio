@@ -95,6 +95,7 @@ const Projekte = () => {
                 <p>Contentful</p>
               </div>
             </a>
+
             <a
               className="projekt-holder"
               href="https://animation-page-ivory.vercel.app/"
@@ -110,6 +111,7 @@ const Projekte = () => {
                 <p>Tutorial</p>
               </div>
             </a>
+
             <a
               className="projekt-holder"
               href="https://rustica-pizzeria.onrender.com"
@@ -124,6 +126,23 @@ const Projekte = () => {
                 <p>Privat</p>
               </div>
             </a>
+
+            <a
+              className="projekt-holder"
+              href="https://unisplitterproject-production.up.railway.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p className="projekt-name">Splitter</p>
+              <div className="projekt-tools-holder">
+                <p>Java</p>
+                <p>Spring Boot</p>
+                <p>Docker</p>
+                <p>PostgreSQL</p>
+                <p>Studium-Projekt</p>
+              </div>
+            </a>
+
             <a
               className="projekt-holder"
               href="https://pauls-awesome-site-1cc3d9.webflow.io/"
