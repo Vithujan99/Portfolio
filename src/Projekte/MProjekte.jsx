@@ -133,7 +133,7 @@ const MProjekte = () => {
           <div className="M-projekt-holder">
             <a
               className="M-projekt-info-holder"
-              href="https://rustica-pizzeria.onrender.com"
+              href="https://github.com/Vithujan99/rustica-pizzeria"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -164,7 +164,7 @@ const MProjekte = () => {
           <div className="M-projekt-holder">
             <a
               className="projekt-holder"
-              href="https://unisplitterproject-production.up.railway.app/"
+              href="https://github.com/Vithujan99/UniSplitterProject"
               target="_blank"
               rel="noopener noreferrer"
             >
